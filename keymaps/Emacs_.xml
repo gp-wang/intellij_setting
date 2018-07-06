@@ -7,6 +7,8 @@
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.CloneColumn" />
+  <action id="Console.TableResult.ColumnSortReset" />
   <action id="Console.TableResult.EditFilterCriteria" />
   <action id="DSM.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl add" />
@@ -23,9 +25,7 @@
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
-  <action id="EditorCodeBlockEndWithSelection">
-    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
-  </action>
+  <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
@@ -34,7 +34,13 @@
   </action>
   <action id="EditorCutLineBackward" />
   <action id="EditorCutLineEnd" />
+  <action id="EditorDeleteToWordEndInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+  </action>
   <action id="EditorDeleteToWordStart" />
+  <action id="EditorDeleteToWordStartInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="shift ctrl alt back_space" />
+  </action>
   <action id="EditorEscape">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="escape" />
   </action>
@@ -45,6 +51,11 @@
   <action id="EditorKillRegion" />
   <action id="EditorKillToWordEnd" />
   <action id="EditorKillToWordStart" />
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
@@ -404,6 +415,7 @@
   <action id="ToggleTemporaryLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl t" />
   </action>
+  <action id="UML.ShowChanges" />
   <action id="UML.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
