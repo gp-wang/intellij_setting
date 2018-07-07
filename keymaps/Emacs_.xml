@@ -7,6 +7,10 @@
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
   <action id="Diff.KeymapGroup">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl e" />
   </action>
@@ -355,6 +359,7 @@
   <action id="ToggleTemporaryLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl t" />
   </action>
+  <action id="Uml.NodeIntentions" />
   <action id="UnsplitAll" />
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="v" />
