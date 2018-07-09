@@ -7,42 +7,25 @@
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
   </action>
   <action id="CompareTwoFiles" />
-  <action id="Console.TableResult.CloneColumn" />
-  <action id="Console.TableResult.ColumnSortReset" />
-  <action id="Console.TableResult.EditFilterCriteria" />
-  <action id="DSM.ZoomIn">
-    <keyboard-shortcut first-keystroke="ctrl add" />
-  </action>
-  <action id="DatabaseView.OpenDdlInConsole" />
   <action id="Diff.KeymapGroup">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl e" />
   </action>
   <action id="Diff.ShowDiff" />
-  <action id="EditorAddOrRemoveCaret">
-    <mouse-shortcut keystroke="shift alt button1" />
-    <mouse-shortcut keystroke="alt button1" />
-  </action>
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
-    <keyboard-shortcut first-keystroke="shift alt close_bracket" />
   </action>
-  <action id="EditorCodeBlockEndWithSelection" />
+  <action id="EditorCodeBlockEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+  </action>
   <action id="EditorCodeBlockStart">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
-    <keyboard-shortcut first-keystroke="shift alt open_bracket" />
   </action>
   <action id="EditorCodeBlockStartWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl alt u" />
   </action>
   <action id="EditorCutLineBackward" />
   <action id="EditorCutLineEnd" />
-  <action id="EditorDeleteToWordEndInDifferentHumpsMode">
-    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
-  </action>
   <action id="EditorDeleteToWordStart" />
-  <action id="EditorDeleteToWordStartInDifferentHumpsMode">
-    <keyboard-shortcut first-keystroke="shift ctrl alt back_space" />
-  </action>
   <action id="EditorEscape">
     <keyboard-shortcut first-keystroke="escape" second-keystroke="escape" />
   </action>
@@ -53,28 +36,16 @@
   <action id="EditorKillRegion" />
   <action id="EditorKillToWordEnd" />
   <action id="EditorKillToWordStart" />
-  <action id="EditorMatchBrace">
-    <keyboard-shortcut first-keystroke="shift ctrl m" />
-    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
-  </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
-  <action id="EditorNextWordInDifferentHumpsMode">
-    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
-  </action>
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
-  </action>
-  <action id="EditorPreviousWordInDifferentHumpsMode">
-    <keyboard-shortcut first-keystroke="shift ctrl alt b" />
   </action>
   <action id="EditorScrollToCenter" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="alt at" />
     <keyboard-shortcut first-keystroke="shift alt 2" />
-    <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="ctrl m" />
@@ -87,10 +58,6 @@
   <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="shift alt comma" />
     <keyboard-shortcut first-keystroke="alt less" />
-  </action>
-  <action id="EditorUnSelectWord">
-    <keyboard-shortcut first-keystroke="shift ctrl w" />
-    <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="Emacs+.AppendNextKill">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
@@ -289,6 +256,9 @@
   <action id="Emacs+.TransposeChars">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
+  <action id="Emacs+.TransposeLines">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl t" />
+  </action>
   <action id="Emacs+.TransposeWords">
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
@@ -310,26 +280,8 @@
     <keyboard-shortcut first-keystroke="tab" />
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
-  <action id="EmmetNextEditPoint" />
-  <action id="EmmetPreviousEditPoint" />
   <action id="EvaluateExpression">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl p" />
-  </action>
-  <action id="ExpandAll">
-    <keyboard-shortcut first-keystroke="ctrl add" />
-  </action>
-  <action id="ExpandAllRegions">
-    <keyboard-shortcut first-keystroke="shift ctrl add" />
-  </action>
-  <action id="ExpandExpandableComponent">
-    <keyboard-shortcut first-keystroke="shift enter" />
-    <keyboard-shortcut first-keystroke="ctrl add" />
-  </action>
-  <action id="ExpandRegion">
-    <keyboard-shortcut first-keystroke="ctrl add" />
-  </action>
-  <action id="ExternalSystem.ExpandAll">
-    <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
   <action id="FileChooser.TogglePathShowing">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl p" />
@@ -344,10 +296,6 @@
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="alt x" />
-  </action>
-  <action id="GotoClass">
-    <keyboard-shortcut first-keystroke="shift alt g" />
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl t" />
   </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="alt period" />
@@ -370,25 +318,13 @@
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
   </action>
-  <action id="Images.Editor.ZoomIn">
-    <keyboard-shortcut first-keystroke="ctrl add" />
-  </action>
   <action id="JumpToLastChange" />
-  <action id="Maven.ExpandAll">
-    <keyboard-shortcut first-keystroke="ctrl add" />
-  </action>
   <action id="MaximizeToolWindow">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="1" />
   </action>
   <action id="NextProjectWindow" />
   <action id="PasteMultiple" />
-  <action id="QuickEvaluateExpression">
-    <keyboard-shortcut first-keystroke="ctrl alt f8" />
-  </action>
   <action id="RecentFiles" />
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="shift ctrl f" />
-  </action>
   <action id="ReloadFromDisk">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl v" />
   </action>
@@ -418,10 +354,6 @@
   </action>
   <action id="ToggleTemporaryLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl t" />
-  </action>
-  <action id="UML.ShowChanges" />
-  <action id="UML.ZoomIn">
-    <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
   <action id="UnsplitAll" />
   <action id="Vcs.QuickListPopupAction">
