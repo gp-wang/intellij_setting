@@ -7,6 +7,9 @@
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="DSM.ZoomIn">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
   <action id="Diff.KeymapGroup">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl e" />
   </action>
@@ -46,6 +49,7 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="alt at" />
     <keyboard-shortcut first-keystroke="shift alt 2" />
+    <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="ctrl m" />
@@ -283,6 +287,19 @@
   <action id="EvaluateExpression">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl p" />
   </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExternalSystem.ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
   <action id="FileChooser.TogglePathShowing">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl p" />
   </action>
@@ -318,7 +335,13 @@
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
   </action>
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
   <action id="JumpToLastChange" />
+  <action id="Maven.ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
   <action id="MaximizeToolWindow">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="1" />
   </action>
@@ -357,6 +380,9 @@
   </action>
   <action id="ToggleTemporaryLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl t" />
+  </action>
+  <action id="UML.ZoomIn">
+    <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
   <action id="UnsplitAll" />
   <action id="Vcs.QuickListPopupAction">
