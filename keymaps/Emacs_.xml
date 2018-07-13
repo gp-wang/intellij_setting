@@ -7,9 +7,11 @@
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.EditFilterCriteria" />
   <action id="DSM.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
+  <action id="DatabaseView.OpenDdlInConsole" />
   <action id="Diff.KeymapGroup">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl e" />
   </action>
@@ -39,10 +41,14 @@
   <action id="EditorKillRegion" />
   <action id="EditorKillToWordEnd" />
   <action id="EditorKillToWordStart" />
-  <action id="EditorNextWord">
+  <action id="EditorNextWord" />
+  <action id="EditorNextWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
-  <action id="EditorPreviousWord">
+  <action id="EditorPreviousWord" />
+  <action id="EditorPreviousWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="shift ctrl alt b" />
     <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
   <action id="EditorScrollToCenter" />
