@@ -348,6 +348,7 @@
   <action id="Maven.ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
+  <action id="Maven.Uml.Exclude" />
   <action id="MaximizeToolWindow">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="1" />
   </action>
@@ -366,6 +367,9 @@
   </action>
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl u" />
+  </action>
+  <action id="SafeDelete">
+    <keyboard-shortcut first-keystroke="shift delete" />
   </action>
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="ctrl alt f7" />
