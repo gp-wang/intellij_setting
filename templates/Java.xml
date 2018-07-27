@@ -1,0 +1,8 @@
+<templateSet group="Java">
+  <template name="qset" value="new HashSet&lt;&gt;(Arrays.asList($ELEMENT$))" description="quick set initialization (hashset)" toReformat="false" toShortenFQNames="true">
+    <variable name="ELEMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
